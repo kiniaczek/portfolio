@@ -2979,6 +2979,14 @@ input, select, textarea {
 		opacity: 1.0 !important;
 	}
 
+	#two article p:first-of-type {
+		margin-bottom: 0.5em;
+	}
+
+	#two article p:last-of-type {
+		font-style: italic;
+	}
+
 /* XLarge */
 
 	@media screen and (max-width: 1800px) {
