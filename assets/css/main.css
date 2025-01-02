@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #fff;
+		background: #454545;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -98,7 +98,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #a2a2a2;
+		color: #f5efef;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
@@ -135,7 +135,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #787878;
+		color: #efeaea;
 		font-weight: 400;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -1765,7 +1765,7 @@ input, select, textarea {
 	}
 
 	header p {
-		color: #b2b2b2;
+		color: #f6f1f1;
 		position: relative;
 		margin: 0 0 1.5em 0;
 	}
@@ -1817,7 +1817,7 @@ input, select, textarea {
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		background: #f7f7f7;
+		background: #f4f4f4;
 		border-radius: 0.35em;
 		border: solid 2px transparent;
 		color: inherit;
@@ -1826,6 +1826,7 @@ input, select, textarea {
 		padding: 0 0.75em;
 		text-decoration: none;
 		width: 100%;
+		color: rgb(10, 10, 10);
 	}
 
 		input[type="text"]:invalid,
@@ -1856,7 +1857,7 @@ input, select, textarea {
 
 		select option {
 			color: #787878;
-			background: #fff;
+			background: #b7b5b5;
 		}
 
 		select:focus::-ms-value {
@@ -1895,7 +1896,7 @@ input, select, textarea {
 		input[type="checkbox"] + label,
 		input[type="radio"] + label {
 			text-decoration: none;
-			color: #a2a2a2;
+			color: #d1d1d1;
 			cursor: pointer;
 			display: inline-block;
 			font-size: 1em;
@@ -1921,7 +1922,7 @@ input, select, textarea {
 
 			input[type="checkbox"] + label:before,
 			input[type="radio"] + label:before {
-				background: #f7f7f7;
+				background: #d1d1d1;
 				border-radius: 0.35em;
 				border: solid 2px transparent;
 				content: '';
@@ -1940,7 +1941,7 @@ input, select, textarea {
 		input[type="radio"]:checked + label:before {
 			background: #787878;
 			border-color: #787878;
-			color: #fff;
+			color: #d1d1d1;
 			content: '\f00c';
 		}
 
@@ -2380,7 +2381,7 @@ input, select, textarea {
 		}
 
 			table tbody tr:nth-child(2n + 1) {
-				background-color: #f7f7f7;
+				background-color: #d1d1d1;
 			}
 
 		table td {
@@ -2445,7 +2446,7 @@ input, select, textarea {
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		background-color: transparent;
 		border-radius: 0.35em;
-		border: solid 3px #efefef;
+		border: solid 3px #d1d1d1;
 		color: #787878 !important;
 		cursor: pointer;
 		display: inline-block;
@@ -2519,7 +2520,7 @@ input, select, textarea {
 		.button.primary {
 			background-color: #49bf9d;
 			border-color: #49bf9d;
-			color: #ffffff !important;
+			color: #d1d1d1 !important;
 		}
 
 			input[type="submit"].primary:hover,
@@ -2545,9 +2546,9 @@ input, select, textarea {
 		input[type="button"]:disabled,
 		.button.disabled,
 		.button:disabled {
-			background-color: #e7e7e7 !important;
-			border-color: #e7e7e7 !important;
-			color: #b2b2b2 !important;
+			background-color: #d1d1d1 !important;
+			border-color: #d1d1d1 !important;
+			color: #d1d1d1 !important;
 			cursor: default;
 		}
 
@@ -2593,14 +2594,14 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), url("../../images/background/pobrane\ \(2\).jpg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
-		background-size: auto,								150%;
+		background-size: auto,								100%;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
-		padding: 8em 4em;
+		padding: 1em 4em;
 		position: fixed;
 		text-align: right;
 		top: 0;
@@ -2620,7 +2621,7 @@ input, select, textarea {
 			-webkit-flex-grow: 1;
 			-ms-flex-grow: 1;
 			flex-grow: 1;
-			margin: 0 0 2em 0;
+			margin: 5em 0 2em 0;
 		}
 
 		#header strong, #header b {
@@ -2634,13 +2635,13 @@ input, select, textarea {
 		#header h1 {
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 1.35em;
-			line-height: 1.75em;
+			line-height: 1.15em;
 			margin: 0;
 		}
 
 		#header .image.avatar {
 			margin: 0 0 1em 0;
-			width: 6.25em;
+			width: 8.25em;
 		}
 
 /* Footer */
